@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo LED NEÓN</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <video autoplay muted loop playsinline class="background-video">
+  <source src="images/background (1).mp4" type="video/mp4" />
+</video>
+
+  <div class="mobile-frame">
+    <header>
+      <h1>Catálogo Neón flex</h1>
+    </header>
+    <main id="catalogo">
+  <div id="product-view"></div>
+  <div class="controls">
+    <button id="btn-inicio">⏮ Inicio</button>
+    <button id="btn-atras">◀ Atrás</button>
+    <button id="btn-siguiente">▶ Siguiente</button>
+    <button id="btn-final"> Final ⏭</button>
+  </div>
+</main>
+
+  </div>
+  <div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" class="lightbox-content" />
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

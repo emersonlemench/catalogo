@@ -1,0 +1,172 @@
+/* Fondo general */
+body {
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+h1{
+  text-align: center;
+}
+
+#catalogo::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* Tarjeta de producto */
+.product-card {
+  min-width: 300px;
+  flex-shrink: 0;
+  background-color: #1e1e1e;
+  border: 1px solid #00ffff40;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px #00ffff20;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #26b6b6;
+}
+
+/* Imagen */
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px #00ffff30;
+}
+
+/* Título */
+.product-card h2 {
+  font-size: 1.1rem;
+  color: #00ffff;
+  margin: 0.5rem 0;
+}
+
+/* Descripción y uso */
+.product-card p {
+  font-size: 0.9rem;
+  color: #d0d0d0;
+  margin: 0.3rem 0;
+}
+
+.product-card p strong {
+  color: #ffffff;
+}
+
+/* Efecto de transición general */
+.product-card, .product-card img {
+  transition: all 0.3s ease;
+}
+
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.4; /* puedes ajustar la opacidad */
+  pointer-events: none;
+}
+
+#catalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-card {
+  background: rgba(234, 0, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 350px;
+  margin: 2rem auto;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(255, 0, 191, 0.918);
+  transition: transform 0.3s ease;
+}
+
+.carousel {
+  width: 100%;
+  height: 200px; /* ajustá según necesidad */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-card img {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.controls {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #af29bb;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+}
+
+.controls button:hover {
+  background-color: #38bda0b9;
+}
+
+
+/* Lightbox general */
+#lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999; /* Muy por encima de todo */
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Imagen dentro del lightbox */
+#lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+/* Botón de cerrar */
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000;
+}

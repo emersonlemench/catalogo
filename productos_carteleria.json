@@ -1,0 +1,122 @@
+[
+  {
+    "titulo": "Cartel de neon led",
+    "imagen": "images/img001.png",
+    "descripcion": "Neón led con base de acrílico",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Neón sobre base MDF",
+    "imagen": "images/img003.jpg",
+    "descripcion": "Neón led con base de MDF(Madera) pintado de blanco o negro",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Neón y vinilo",
+    "imagen": "images/img005.png",
+    "descripcion": "Neón base acrílico con intervención de vinilo. Puede ser en base acrilico o MDF",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Neón infinito",
+    "imagen": "images/img006.jpeg",
+    "descripcion": "Neón led dentro de estrucutra con efecto infinito",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Polyfan (pintado)",
+    "imagen": "images/img007.png",
+    "descripcion": "Polyfan pintado armado sobre estructura",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Polyfan retroiluminado",
+    "imagen": "images/img009.jpeg",
+    "descripcion": "Polyfan con iluminacion armado sobre estructura",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Cartel saliente pastilla",
+    "imagen": "images/img010.png",
+    "descripcion": "Cartel saliente tipo pastilla puede o no llevar iluminacion",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Cartel Multilayer",
+    "imagen": "images/img011.jpg",
+    "descripcion": "Cartel hecho en capas que puede o no estar iluminado",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Letras de acrilico 3D",
+    "imagen": "images/img013.jpg",
+    "descripcion": "Letras hechas en acrilico que pueden o no estar iluminadas",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Carteleria de aluminio",
+    "imagen": "images/img014.png",
+    "descripcion": "Carteles con cantos de aluminio y tapa de acrilico con trimcap",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Backlight Base PVC",
+    "imagen": "images/img015.png",
+    "descripcion": "Backlight de pvc espumado, rotulado con acrilico o vinilo",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Neón Caja para exterior",
+    "imagen": "images/img016.png",
+    "descripcion": "Cartel de neon led dentro de una caja sellada para exterior",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Boxlight saliente",
+    "imagen": "images/img017.jpeg",
+    "descripcion": "Boxlight saliente para amurar que puede o no estar iluminado",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Boxlight colgante",
+    "imagen": "images/img018.png",
+    "descripcion": "Boxlight colgante que puede o no estar iluminado",
+    "uso": "Apto interior y exterior"
+  },
+  {
+    "titulo": "Boxlight amurable",
+    "imagen": "images/img019.png",
+    "descripcion": "Boxlight diseñado para amurar.",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Boxlight exhibidor",
+    "imagen": "images/img020.jpeg",
+    "descripcion": "Boxlight para exhibicion. Puede o no estar iluminado",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Aro colgante 360",
+    "imagen": "images/img022.png",
+    "descripcion": "Aro de neon led con vista 360 para colgar",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Base QR",
+    "imagen": "images/img023.jpg",
+    "descripcion": "Base con iluminación para QR puede o no estar iluminado",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Base con Portamarca",
+    "imagen": "images/img024.png",
+    "descripcion": "Base con portamarca grabada en acrilico. Puede o no estar iluminado",
+    "uso": "Apto interior"
+  },
+  {
+    "titulo": "Portabotella/Glorificador",
+    "imagen": "images/img025.png",
+    "descripcion": "Portabotella/Glorificador diseñador para exhibicion de productos",
+    "uso": "Apto interior"
+  }
+]
