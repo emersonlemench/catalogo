@@ -7,8 +7,18 @@ body {
   padding: 2rem;
   overflow-x: hidden;
 }
+.logotipo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logotipo img{
+  width: 90px;
+}
 h1{
   text-align: center;
+  font-size:larger;
 }
 
 #catalogo::-webkit-scrollbar {
@@ -45,7 +55,7 @@ h1{
 /* Título */
 .product-card h2 {
   font-size: 1.1rem;
-  color: #00ffff;
+  color: #ffffff;
   margin: 0.5rem 0;
 }
 
